@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+}
+body {
+  background: #b3d2f5;
+}
+:root {
+  --bd-webcreate: #0d6efd;
+  --bd-webcreate-rgb: 115, 73, 0;
+  --bd-webcreate-bg: #0d6efd;
+}
+#navbar {
+  height: 90px;
+  background: #e7e9ed;
+  transition: height 0.3s;
+}
+.color-webcreate-gold {
+  color: #fdbe33;
+}
+#navbar .navbar-brand {
+  margin: 0;
+  font-size: 25px;
+  line-height: 0px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+#navbar .navbar-collapse {
+  z-index: 99;
+  background: #e7e9ed;
+  border-radius: 20px;
+  /* padding: 20px; */
+}
+#navbar .nav-link {
+  font-size: 18px;
+}
+.bg-webcreate-2 {
+  background: #e7e9ed !important;
+}
+.bg-webcreate {
+  background: #f5e2bd;
+}
+.section-padding-top {
+  padding-top: 100px;
+}
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  background-color: var(--bd-webcreate-bg);
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+#scrollToTopBtn:hover {
+  background-color: #5b3a01;
+}
+.hero-title::after {
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 3px;
+  left: calc(50% - 50px);
+  bottom: -20px;
+  background: #0d6efd;
+}
+.nav-link.active {
+  color: var(--bd-webcreate-bg) !important;
+  font-weight: bold;
+}
